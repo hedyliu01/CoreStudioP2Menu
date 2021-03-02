@@ -1,0 +1,163 @@
+/* CSS files add styling rules to your content */
+@font-face {
+    font-family: "Mayenne Sans Regular";
+    src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2"); 
+  }
+
+body {
+    font-family:"Mayenne Sans Regular";
+    margin: 2em;
+  }
+  
+  .menu {
+    width: 100%;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .menu {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  .block {
+    border: 1px solid black;
+    background: white;
+    height: 18rem;
+    transition: all 0.25s;
+    position: relative;
+  }
+  
+  .questionmark {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+  
+  .block:hover > .questionmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+  }
+
+  .colons{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .colons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(192, 153, 243);
+  }
+  
+  .semicolons{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .semicolons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellowgreen;
+  }
+
+  .comma{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .comma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink
+  }
+
+  .period{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .period {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(163, 197, 247)
+  }
+
+  .quotation{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .quotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:orange
+  }
+
+  .dash{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .dash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(236, 120, 192)
+  }
+
+  .mark{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+
+  .block:hover > .mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(125, 221, 238)
+  }
+  
+  
+  
